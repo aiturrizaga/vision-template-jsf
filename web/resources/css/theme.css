@@ -142,7 +142,7 @@ body .ui-inputfield.ui-state-focus:not(.ui-state-error) {
 }
 
 body .ui-inputfield.ui-state-error {
-  border-color: #EF5350;
+  border-color: var(--ui-state-error);
 }
 
 body .ui-autocomplete {
@@ -583,7 +583,7 @@ body .ui-selectonemenu.ui-state-focus:not(.ui-state-error) {
 }
 
 body .ui-selectonemenu.ui-state-error {
-  border-color: #EF5350;
+  border-color: var(--ui-state-error);
 }
 
 body .ui-selectonemenu-panel {
@@ -757,7 +757,7 @@ body .ui-selectcheckboxmenu.ui-state-focus:not(.ui-state-error) {
 }
 
 body .ui-selectcheckboxmenu.ui-state-error {
-  border-color: #EF5350;
+  border-color: var(--ui-state-error);
 }
 
 body .ui-selectcheckboxmenu .ui-selectcheckboxmenu-multiple-container {
@@ -4737,9 +4737,9 @@ body .ui-messages .ui-messages-warn .ui-messages-close {
 }
 
 body .ui-messages .ui-messages-error {
-  background-color: #EF5350;
-  border: 1px solid #EF5350;
-  color: #ffffff;
+  background-color: var(--ui-message-color-error);
+  border: 1px solid var(--ui-message-color-error);
+  color: var(--ui-message-font-error);
 }
 
 body .ui-messages .ui-messages-error .ui-messages-error-icon {
@@ -4754,7 +4754,7 @@ body .ui-messages .ui-messages-error .ui-messages-error-icon {
   text-align: center;
   font-size: 1.714em;
   margin-top: -4px;
-  color: #ffffff;
+  color: var(--ui-message-font-error);
 }
 
 body .ui-messages .ui-messages-error .ui-messages-error-icon:before {
@@ -4762,13 +4762,13 @@ body .ui-messages .ui-messages-error .ui-messages-error-icon:before {
 }
 
 body .ui-messages .ui-messages-error .ui-messages-close {
-  color: #ffffff;
+  color: var(--ui-message-font-error);
 }
 
 body .ui-messages .ui-messages-fatal {
-  background-color: #757575;
-  border: 1px solid #757575;
-  color: #ffffff;
+  background-color: var(--ui-message-color-fatal);
+  border: 1px solid var(--ui-message-color-fatal);
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-messages .ui-messages-fatal .ui-messages-fatal-icon {
@@ -4783,7 +4783,7 @@ body .ui-messages .ui-messages-fatal .ui-messages-fatal-icon {
   text-align: center;
   font-size: 1.714em;
   margin-top: -4px;
-  color: #ffffff;
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-messages .ui-messages-fatal .ui-messages-fatal-icon:before {
@@ -4791,7 +4791,7 @@ body .ui-messages .ui-messages-fatal .ui-messages-fatal-icon:before {
 }
 
 body .ui-messages .ui-messages-fatal .ui-messages-close {
-  color: #ffffff;
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-messages .ui-messages-close {
@@ -4874,9 +4874,9 @@ body .ui-message.ui-message-warn .ui-message-warn-detail {
 }
 
 body .ui-message.ui-message-error {
-  background-color: #EF5350;
-  border: 1px solid #EF5350;
-  color: #ffffff;
+  background-color: var(--ui-message-color-error);
+  border: 1px solid var(--ui-message-color-error);
+  color: var(--ui-message-font-error);
 }
 
 body .ui-message.ui-message-error .ui-message-error-icon {
@@ -4891,7 +4891,7 @@ body .ui-message.ui-message-error .ui-message-error-icon {
   text-align: center;
   font-size: 16px;
   margin-top: -1px;
-  color: #ffffff;
+  color: var(--ui-message-font-error);
   float: none;
 }
 
@@ -4904,9 +4904,9 @@ body .ui-message.ui-message-error .ui-message-error-detail {
 }
 
 body .ui-message.ui-message-fatal {
-  background-color: #757575;
-  border-color: 1px solid #757575;
-  color: #ffffff;
+  background-color: var(--ui-message-color-fatal);
+  border-color: 1px solid var(--ui-message-color-fatal);
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-message.ui-message-fatal .ui-message-fatal-icon {
@@ -4921,7 +4921,7 @@ body .ui-message.ui-message-fatal .ui-message-fatal-icon {
   text-align: center;
   font-size: 16px;
   margin-top: -1px;
-  color: #ffffff;
+  color: var(--ui-message-font-fatal);
   float: none;
 }
 
@@ -5028,9 +5028,9 @@ body .ui-growl .ui-growl-item-container.ui-growl-warn .ui-icon {
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-error {
-  background-color: #EF5350;
-  border: 1px solid #EF5350;
-  color: #ffffff;
+  background-color: var(--ui-message-color-error);
+  border: 1px solid var(--ui-message-color-error);
+  color: var(--ui-message-font-error);
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-error .ui-growl-image {
@@ -5044,7 +5044,7 @@ body .ui-growl .ui-growl-item-container.ui-growl-error .ui-growl-image {
   text-indent: 0px !important;
   text-align: center;
   font-size: 3.429em;
-  color: #ffffff;
+  color: var(--ui-message-font-error);
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-error .ui-growl-image:before {
@@ -5052,13 +5052,13 @@ body .ui-growl .ui-growl-item-container.ui-growl-error .ui-growl-image:before {
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-error .ui-icon {
-  color: #ffffff;
+  color: var(--ui-message-font-error);
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-fatal {
-  background-color: #757575;
-  border: 1px solid #757575;
-  color: #ffffff;
+  background-color: var(--ui-message-color-fatal);
+  border: 1px solid var(--ui-message-color-fatal);
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-fatal .ui-growl-image {
@@ -5072,7 +5072,7 @@ body .ui-growl .ui-growl-item-container.ui-growl-fatal .ui-growl-image {
   text-indent: 0px !important;
   text-align: center;
   font-size: 3.429em;
-  color: #ffffff;
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-fatal .ui-growl-image:before {
@@ -5080,7 +5080,7 @@ body .ui-growl .ui-growl-item-container.ui-growl-fatal .ui-growl-image:before {
 }
 
 body .ui-growl .ui-growl-item-container.ui-growl-fatal .ui-icon {
-  color: #ffffff;
+  color: var(--ui-message-font-fatal);
 }
 
 body .ui-overlaypanel {

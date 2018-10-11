@@ -21873,8 +21873,7 @@ select.form-control-xs:not([size]):not([multiple]) {
 }
 
 .be-error-404 .error-container .error-number {
-    background: url(../img/404-bg.png) no-repeat center center;
-    background-size: contain
+    background-size: contain;
 }
 
 @media (max-width: 575.98px) {

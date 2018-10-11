@@ -25,12 +25,18 @@
     --color-danger: #E64A19;
     --color-danger-dark: #D84315;
     --color-danger-light: #FF5722;
-    /* user interface */
+    /*--User interface--*/
     --ui-border-color: var(--color-primary);
+    --ui-state-error: var(--color-danger);
     --ui-font-family: Roboto;
     --ui-color-header: var(--color-primary);
+    /* message color */
     --ui-message-color-info: var(--color-primary);
     --ui-message-font-info: #ffffff;
     --ui-message-color-warn: var(--color-warning);
     --ui-message-font-warn: #000000;
+    --ui-message-color-error: var(--color-danger);
+    --ui-message-font-error: #ffffff;
+    --ui-message-color-fatal: var(--color-secondary-dark);
+    --ui-message-font-fatal: #000000;
 }
