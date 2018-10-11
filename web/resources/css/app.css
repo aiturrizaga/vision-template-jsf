@@ -13504,7 +13504,7 @@ canvas {
 @media (max-width: 767.98px) {
     .main-content {
         height: 100%;
-        overflow: auto;
+        overflow: visible;
         -webkit-overflow-scrolling: touch;
         padding-left: 15px;
         padding-right: 15px;
