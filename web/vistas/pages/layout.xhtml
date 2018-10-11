@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+            <ui:param name="be_aside" value="be-aside"/>
+            <ui:param name="be_no_padding" value="be-no-padding"/>
+            <ui:param name="layout_active" value="active"/>
+
+            <ui:define name="ui-title">
+                Layout
+            </ui:define>
+
+            <ui:define name="aside">
+                <aside class="page-aside">
+                    <div class="be-scroller-aside">
+                        <div class="aside-content">
+                            <div class="content">
+                                <div class="aside-header">
+                                    <button class="navbar-toggle" data-target=".aside-nav" data-toggle="collapse" type="button"><span class="icon mdi mdi-caret-down"></span></button><span
+                                        class="title">Select Filter</span>
+                                    <p class="description">Service description</p>
+                                </div>
+                            </div>
+                            <div class="aside-nav collapse">
+                                <div class="content">
+                                    <div class="form-group">
+                                        <label class="w-100">Origin
+                                            <div class="input-group input-group-sm date datetimepicker" data-min-view="2" data-date-format="yyyy-mm-dd">
+                                                <input class="form-control" size="16" type="text" value=""/>
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="w-100">Destination
+                                            <div class="input-group input-group-sm date datetimepicker" data-min-view="2" data-date-format="yyyy-mm-dd">
+                                                <input class="form-control" size="16" type="text" value=""/>
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>People</label>
+                                        <input class="bslider form-control" type="text" value=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Payment method</label>
+                                        <ul class="be-option-buttons">
+                                            <li><a class="be-option-button" href="#"><i class="icon mdi mdi-favorite-outline"></i><span>Credit
+                                                        Card</span></a></li>
+                                            <li><a class="be-option-button" href="#"><i class="icon mdi mdi-mood"></i><span>Cash</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Place</label>
+                                        <select class="select2 input-sm">
+                                            <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                <option value="AK">Alaska</option>
+                                                <option value="HI">Hawaii</option>
+                                            </optgroup>
+                                            <optgroup label="Pacific Time Zone">
+                                                <option value="CA">California</option>
+                                                <option value="NV">Nevada</option>
+                                                <option value="OR">Oregon</option>
+                                                <option value="WA">Washington</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label>Extras</label>
+                                        <div class="row mt-1">
+                                            <div class="col-6">
+                                                <label class="custom-control custom-checkbox w-100 mr-0">
+                                                    <input class="custom-control-input" type="checkbox" checked=""/><span class="custom-control-label">First
+                                                        Class</span>
+                                                </label>
+                                                <label class="custom-control custom-checkbox w-100">
+                                                    <input class="custom-control-input" type="checkbox"/><span class="custom-control-label">Bell boy</span>
+                                                </label>
+                                                <label class="custom-control custom-checkbox w-100">
+                                                    <input class="custom-control-input" type="checkbox"/><span class="custom-control-label">Pillow</span>
+                                                </label>
+                                            </div>
+                                            <div class="col-6">
+                                                <label class="custom-control custom-checkbox w-100">
+                                                    <input class="custom-control-input" type="checkbox"/><span class="custom-control-label">Lunch</span>
+                                                </label>
+                                                <label class="custom-control custom-checkbox w-100">
+                                                    <input class="custom-control-input" type="checkbox"/><span class="custom-control-label">Wifi</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div><a class="btn btn-lg btn-primary btn-block" href="#">Search</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </ui:define>
+            
+            <ui:define name="content">
+                <div class="be-aside-header">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="be-aside-header-title">Best Prices for You <span class="new-messages">(2 new sales)</span></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="be-aside-header-search">
+                                <div class="input-group input-search input-group-sm">
+                                    <input class="form-control" type="text" placeholder="Search"/><span class="input-group-btn">
+                                        <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-search"></i></button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="be-aside-header-filters">
+                    <div class="be-aside-header-filters-left">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">Order by <span
+                                    class="caret"></span></button>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" href="#">Date</a><a class="dropdown-item"
+                                                                                                                href="#">Price (lower to higher)</a><a class="dropdown-item" href="#">Price (higher to lower)</a><a
+                                                                                                                class="dropdown-item" href="#">Items</a></div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-view-list"></i></button>
+                            <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-view-module"></i></button>
+                        </div>
+                    </div>
+                    <div class="be-aside-header-filters-right"><span class="be-aside-pagination-indicator">1-50 of 253</span>
+                        <div class="btn-group be-aside-pagination-nav">
+                            <button class="btn btn-secondary" type="button"><i class="mdi mdi-chevron-left"></i></button>
+                            <button class="btn btn-secondary" type="button"><i class="mdi mdi-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row be-booking-promos">
+                    <div class="col-xl-6">
+                        <div class="be-booking-promo">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Basic</h4><span class="be-booking-desc-details">Lorem ipsum dolor sit
+                                    amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">5</span><span
+                                        class="frecuency">/mo</span></div><a class="btn btn-primary be-booking-btn-price" href="#">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                        <div class="be-booking-promo be-booking-promo-success">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Pro</h4><span class="be-booking-desc-details">Lorem ipsum dolor sit
+                                    amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">18</span><span
+                                        class="frecuency">/mo</span></div><a class="btn btn-success be-booking-btn-price" href="#">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                        <div class="be-booking-promo be-booking-promo-soldout">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Deluxe</h4><span class="be-booking-desc-details">Lorem ipsum dolor
+                                    sit amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">15</span><span
+                                        class="frecuency">/mo</span></div>
+                            </div><span class="be-soldout-title">Sold Out</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="be-booking-promo be-booking-promo-warning">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Premium</h4><span class="be-booking-desc-details">Lorem ipsum dolor
+                                    sit amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">12</span><span
+                                        class="frecuency">/mo</span></div><a class="btn btn-warning be-booking-btn-price" href="#">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                        <div class="be-booking-promo be-booking-promo-danger be-booking-promo-big">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Premium</h4><span class="be-booking-desc-details">Lorem ipsum dolor
+                                    sit amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">20</span><span
+                                        class="frecuency">/mo</span></div><a class="btn btn-danger be-booking-btn-price" href="#">Get
+                                    Started</a>
+                            </div><span class="be-promo-big-title icon mdi mdi-fire"></span>
+                        </div>
+                        <div class="be-booking-promo be-booking-promo-primary be-booking-promo-color">
+                            <div class="be-booking-desc">
+                                <h4 class="be-booking-desc-title">Team</h4><span class="be-booking-desc-details">Lorem ipsum dolor sit
+                                    amet, Pellen tesque sit amet odio Integer.</span>
+                            </div>
+                            <div class="be-booking-promo-price">
+                                <div class="be-booking-promo-amount"><span class="currency">$</span><span class="price">25</span><span
+                                        class="frecuency">/mo</span></div><a class="btn btn-primary btn-outline be-booking-btn-price" href="#">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

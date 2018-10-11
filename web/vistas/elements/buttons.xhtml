@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+
+            <ui:param name="button_active" value="active"/>
+            
+            <ui:define name="ui-title">
+                Buttons
+            </ui:define>
+            
+            <ui:define name="content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Basic Buttons<span class="card-subtitle">Default bootstrap buttons style</span></div>
+                            <div class="card-body mt-3 text-center">
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary">Secondary</button>
+                                    <button class="btn btn-space btn-primary">Primary</button>
+                                    <button class="btn btn-space btn-danger">Danger</button>
+                                    <button class="btn btn-space btn-warning">Warning</button>
+                                    <button class="btn btn-space btn-success">Success</button>
+                                </p>
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary hover">Secondary</button>
+                                    <button class="btn btn-space btn-primary hover">Primary</button>
+                                    <button class="btn btn-space btn-danger hover">Danger</button>
+                                    <button class="btn btn-space btn-warning hover">Warning</button>
+                                    <button class="btn btn-space btn-success hover">Success</button>
+                                </p>
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary active">Secondary</button>
+                                    <button class="btn btn-space btn-primary active">Primary</button>
+                                    <button class="btn btn-space btn-danger active">Danger</button>
+                                    <button class="btn btn-space btn-warning active">Warning</button>
+                                    <button class="btn btn-space btn-success active">Success</button>
+                                </p>
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary" disabled="true">Secondary</button>
+                                    <button class="btn btn-space btn-primary" disabled="true">Primary</button>
+                                    <button class="btn btn-space btn-danger" disabled="true">Danger</button>
+                                    <button class="btn btn-space btn-warning" disabled="true">Warning</button>
+                                    <button class="btn btn-space btn-success" disabled="true">Success</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Button Icons<span class="card-subtitle">Default bootstrap buttons with icons</span></div>
+                            <div class="card-body mt-3 text-center">
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary"><i class="icon icon-left mdi mdi-globe"></i>Secondary</button>
+                                    <button class="btn btn-space btn-primary"><i class="icon icon-left mdi mdi-cloud-done"></i>Primary</button>
+                                    <button class="btn btn-space btn-danger"><i class="icon icon-left mdi mdi-alert-circle"></i>Danger</button>
+                                    <button class="btn btn-space btn-warning"><i class="icon icon-left mdi mdi-alert-triangle"></i>Warning</button>
+                                    <button class="btn btn-space btn-success"><i class="icon icon-left mdi mdi-check"></i>Success</button>
+                                </p>
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary hover"> <i class="icon icon-left mdi mdi-globe"></i>Secondary</button>
+                                    <button class="btn btn-space btn-primary hover"><i class="icon icon-left mdi mdi-cloud-done"></i>Primary</button>
+                                    <button class="btn btn-space btn-danger hover"><i class="icon icon-left mdi mdi-alert-circle"></i>Danger</button>
+                                    <button class="btn btn-space btn-warning hover"><i class="icon icon-left mdi mdi-alert-triangle"></i>Warning</button>
+                                    <button class="btn btn-space btn-success hover"><i class="icon icon-left mdi mdi-check"></i>Success</button>
+                                </p>
+                                <p class="mt-2 mb-2">
+                                    <button class="btn btn-space btn-secondary active"> <i class="icon icon-left mdi mdi-globe"></i>Secondary</button>
+                                    <button class="btn btn-space btn-primary active"><i class="icon icon-left mdi mdi-cloud-done"></i>Primary</button>
+                                    <button class="btn btn-space btn-danger active"><i class="icon icon-left mdi mdi-alert-circle"></i>Danger</button>
+                                    <button class="btn btn-space btn-warning active"><i class="icon icon-left mdi mdi-alert-triangle"></i>Warning</button>
+                                    <button class="btn btn-space btn-success active"><i class="icon icon-left mdi mdi-check"></i>Success</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

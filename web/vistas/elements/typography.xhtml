@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+
+            <ui:param name="typo_active" value="active"/>
+
+            <ui:define name="ui-title">
+                Typography
+            </ui:define>
+
+            <ui:define name="content">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Headings<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <h1>h1. Heading text</h1>
+                                <h2>h2. Heading text</h2>
+                                <h3>h3. Heading text</h3>
+                                <h4>h4. Heading text</h4>
+                                <h5>h5. Heading text</h5>
+                                <h6>h6. Heading text</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Headings with secondary text<span class="card-subtitle">Mauris
+                                    vestibulum libero.</span></div>
+                            <div class="card-body">
+                                <h1>h1. Heading text <small>Secondary text</small></h1>
+                                <h2>h2. Heading text <small>Secondary text</small></h2>
+                                <h3>h3. Heading text <small>Secondary text</small></h3>
+                                <h4>h4. Heading text <small>Secondary text</small></h4>
+                                <h5>h5. Heading text <small>Secondary text</small></h5>
+                                <h6>h6. Heading text <small>Secondary text</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Body text<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare iaculis purus, eget
+                                    gravida est lacinia at. Nam magna dolor, vestibulum ut consequat in, dictum a metus.</p>
+                                <p>Pellentesque vulputate arcu sed risus auctor tincidunt. Morbi eget massa turpis. Fusce aliquet dolor
+                                    eu posuere tincidunt. Fusce ultricies luctus dui, dapibus pharetra risus semper non. Maecenas tempus
+                                    est neque, sit amet malesuada augue tempor vitae. Proin mattis efficitur enim ut molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Lead body<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <p class="lead">Fusce interdum ante nisl, a gravida turpis venenatis eget. Sed pretium consectetur urna
+                                    et rhoncus.</p>
+                                <p>Pellentesque vulputate arcu sed risus auctor tincidunt. Morbi eget massa turpis. Fusce aliquet dolor
+                                    eu posuere tincidunt. Fusce ultricies luctus dui, dapibus pharetra risus semper non. Maecenas tempus
+                                    est neque, sit amet malesuada augue tempor vitae. Proin mattis efficitur enim ut molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Alignment types<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <p class="text-left">Left aligned text.</p>
+                                        <p class="text-left">Pellentesque vulputate arcu sed risus auctor tincidunt. Morbi eget massa
+                                            turpis. Fusce aliquet dolor eu posuere tincidunt. Fusce ultricies luctus dui, dapibus pharetra
+                                            risus semper non. .</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-center">Center aligned text.</p>
+                                        <p class="text-center">Pellentesque vulputate arcu sed risus auctor tincidunt. Morbi eget massa
+                                            turpis. Fusce aliquet dolor eu posuere tincidunt. Fusce ultricies luctus dui, dapibus pharetra
+                                            risus semper non. .</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-right">Right aligned text.</p>
+                                        <p class="text-right">Pellentesque vulputate arcu sed risus auctor tincidunt. Morbi eget massa
+                                            turpis. Fusce aliquet dolor eu posuere tincidunt. Fusce ultricies luctus dui, dapibus pharetra
+                                            risus semper non. .</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Unordered list<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>Consectetur adipiscing elit</li>
+                                    <li>Integer molestie lorem at massa</li>
+                                    <li>Facilisis in pretium nisl aliquet</li>
+                                    <li>Nulla volutpat aliquam velit
+                                        <ul>
+                                            <li>Phasellus iaculis neque</li>
+                                            <li>Purus sodales ultricies</li>
+                                            <li>Vestibulum laoreet porttitor sem</li>
+                                            <li>Ac tristique libero volutpat at</li>
+                                        </ul>
+                                    </li>
+                                    <li>Faucibus porta lacus fringilla vel</li>
+                                    <li>Aenean sit amet erat nunc</li>
+                                    <li>Eget porttitor lorem</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Ordered list<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <ol>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>Consectetur adipiscing elit</li>
+                                    <li>Integer molestie lorem at massa</li>
+                                    <li>Facilisis in pretium nisl aliquet</li>
+                                    <li>Nulla volutpat aliquam velit</li>
+                                    <li>Phasellus iaculis neque</li>
+                                    <li>Purus sodales ultricies</li>
+                                    <li>Vestibulum laoreet porttitor sem</li>
+                                    <li>Ac tristique libero volutpat at</li>
+                                    <li>Faucibus porta lacus fringilla vel</li>
+                                    <li>Aenean sit amet erat nunc</li>
+                                    <li>Eget porttitor lorem</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Unordered list<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>Consectetur adipiscing elit</li>
+                                    <li>Integer molestie lorem at massa</li>
+                                    <li>Facilisis in pretium nisl aliquet</li>
+                                    <li>Nulla volutpat aliquam velit
+                                        <ul>
+                                            <li>Phasellus iaculis neque</li>
+                                            <li>Purus sodales ultricies</li>
+                                            <li>Vestibulum laoreet porttitor sem</li>
+                                            <li>Ac tristique libero volutpat at</li>
+                                        </ul>
+                                    </li>
+                                    <li>Faucibus porta lacus fringilla vel</li>
+                                    <li>Aenean sit amet erat nunc</li>
+                                    <li>Eget porttitor lorem</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Text elements<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <p>You can use the mark tag to
+                                    <mark>highlight</mark> text.
+                                </p>
+                                <p>
+                                    <s>This line of text is meant to be treated as deleted</s>
+                                </p>
+                                <p>
+                                    <u>This line of text will render as underlined.</u>
+                                </p>
+                                <p><small>This line of text is meant to be treated as fine print.</small></p>
+                                <p>The following snippet of text is <strong>rendered as bold text.</strong></p>
+                                <p>The following snippet of text is <em>rendered as italicized text.</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Text Color<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <p class="text-muted">This is an example of muted text.</p>
+                                <p class="text-primary">This is an example of primary text.</p>
+                                <p class="text-success">This is an example of success text.</p>
+                                <p class="text-warning">This is an example of warning text.</p>
+                                <p class="text-danger">This is an example of danger text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Addresses<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <address><strong>Twitter, Inc. <br/> </strong>1355 Market Street, Suite 900 <br/>
+                                    San Francisco, CA 94103 <br/><abbr title="Phone">P: </abbr>(123) 456 7890
+                                </address>
+                                <address><strong>Full name <br/></strong><a >first.last@example.com</a></address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header card-header-divider">Blockquotes<span class="card-subtitle">Mauris vestibulum
+                                    libero.</span></div>
+                            <div class="card-body">
+                                <blockquote class="blockquote">
+                                    <p>Maecenas id tellus felis. Phasellu s eu magna ornare, ultrices metus yet odio. Cras et lectus
+                                        vitae diam rutrum hendrerit.</p>
+                                </blockquote>
+                                <blockquote class="blockquote">
+                                    <p>Fusce bibendum in velit nec ullamcorper. Nullam elementum erat eu nisi venenatis elementum.
+                                        Suspendisse maximus.</p>
+                                    <footer class="blockquote-footer">Someone famous in
+                                        <cite title="Source Title">Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                                <blockquote class="blockquote text-right">
+                                    <p>Nulla facilisi. Curabitur magna neque, maximus at pellentesque et, mattis et neque. Mauris quis
+                                        ligula.</p>
+                                    <footer class="blockquote-footer">Someone famous in
+                                        <cite title="Source Title">Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

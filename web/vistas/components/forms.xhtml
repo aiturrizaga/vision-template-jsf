@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+            
+            <ui:param name="form_active" value="active"/>
+            
+            <ui:define name="ui-title">
+                Forms
+            </ui:define>
+
+            <ui:define name="content">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <!--inputText-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        InputText
+                                        <span class="card-subtitle">Primefaces inputText</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control" id="txtName" placeholder="Ingrese su name" />
+                                                            <p:outputLabel for="txtName" value="Name"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control" id="txtEmail" placeholder="Ingrese su email" />
+                                                            <p:outputLabel for="txtEmail" value="Email" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control" id="txtPhone" placeholder="Ingrese su phone" />
+                                                            <p:outputLabel for="txtPhone" value="Phone" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control" id="txtDisabled" placeholder="Disabled" disabled="true" />
+                                                            <p:outputLabel for="txtDisabled" value="Disabled" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control" id="txtReadonly" placeholder="Readonly" readonly="true" />
+                                                            <p:outputLabel for="txtReadonly" value="Readonly" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputText class="form-control ui-state-error" id="txtInvalid" placeholder="Invalid"/>
+                                                            <p:outputLabel for="txtInvalid" value="Invalid" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--inputText end-->
+
+                            <!--inputTextarea-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        TextArea
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <div class="has-float-label">
+                                                            <p:inputTextarea class="form-control" id="txtArea" placeholder="Your message" />
+                                                            <p:outputLabel for="txtArea" value="Message"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--inputTextarea end-->
+
+                            <!--autoComplete-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        AutoComplete
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <p:outputLabel for="txtSimple" value="Simple"/>
+                                                        <p:autoComplete id="txtSimple" placeholder="Search" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <p:outputLabel for="txtMultiple" value="Multiple"/>
+                                                        <p:autoComplete id="txtMultiple" placeholder="Search" dropdown="true" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--autoComplete end-->
+
+                            <!--selectOneMenu-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        SelectOneMenu
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p:selectOneMenu value="" style="width: 100%;">
+                                                        <f:selectItem itemLabel="Cities" itemValue="1"/>
+                                                        <f:selectItem itemLabel="Lima" itemValue="1"/>
+                                                        <f:selectItem itemLabel="Huacho" itemValue="1"/>
+                                                        <f:selectItem itemLabel="Cajarmarca" itemValue="1"/>
+                                                    </p:selectOneMenu>
+                                                </div>
+                                            </div>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--selectOneMenu end-->
+
+                            <!--selectOneMenu-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        Rating
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p:rating value="" />
+                                                </div>
+                                            </div>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--selectOneMenu end-->
+
+                            <!--selectOneMenu-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header card-header-divider">
+                                        Calendar
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <h:panelGrid columns="2" cellpadding="5">
+                                                <p:outputLabel for="inline" value="Inline:" />
+                                                <p:calendar id="inline" mode="inline" />
+
+                                                <p:outputLabel for="popup" value="Popup:" />
+                                                <p:calendar id="popup" />
+
+                                                <p:outputLabel for="button" value="Button:" />
+                                                <p:calendar id="button"  showOn="button" />
+
+                                                <p:outputLabel for="multi" value="Multiple:" />
+                                                <p:calendar id="multi" pages="3" />
+
+                                                <p:outputLabel for="effect" value="Effect:" />
+                                                <p:calendar id="effect" effect="fold" />
+
+                                                <p:outputLabel for="mask" value="Mask:" />
+                                                <p:calendar id="mask" value="#{calendarView.date9}" pattern="dd-MM-yyyy" mask="true" />
+
+                                                <p:outputLabel for="datetime" value="Datetime:" />
+                                                <p:calendar id="datetime" pattern="MM/dd/yyyy HH:mm:ss" />
+
+                                                <p:outputLabel for="time" value="Time:" />
+                                                <p:calendar id="time" pattern="HH:mm" timeOnly="true"  />
+                                            </h:panelGrid>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--selectOneMenu end-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <!--selectManyCheckbox-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    Checkboxes
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <h:panelGrid columns="2" cellpadding="5">
+                                            <p:selectManyCheckbox>
+                                                <f:selectItem itemLabel="Xbox One" itemValue="Xbox One" />
+                                                <f:selectItem itemLabel="PS4" itemValue="PS4" />
+                                                <f:selectItem itemLabel="Wii U" itemValue="Wii U" />
+                                                <f:selectItem itemLabel="PC" itemValue="PC" />
+                                            </p:selectManyCheckbox>
+                                        </h:panelGrid>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--selectManyCheckbox end-->
+
+                        <!--selectOneRadio-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    RadioButtons
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+                                            <p:selectOneRadio>
+                                                <f:selectItem itemLabel="Xbox One" itemValue="Xbox One" />
+                                                <f:selectItem itemLabel="PS4" itemValue="PS4" />
+                                                <f:selectItem itemLabel="Wii U" itemValue="Wii U" />
+                                                <f:selectItem itemLabel="PC" itemValue="PC" />
+                                            </p:selectOneRadio>
+                                        </h:panelGrid>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--selectOneRadio end-->
+
+                        <!--inputSwitch-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    Input Switch
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+                                            <p:inputSwitch />
+                                        </h:panelGrid>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--inputSwitch end-->
+
+                        <!--inputSwitch-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    Keyboard &amp; Password
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <h:panelGrid columns="1" cellpadding="5">
+                                            <p:keyboard placeholder="Keyboard"/>
+                                            <p:password placeholder="Password" feedback="true" />
+                                        </h:panelGrid>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--inputSwitch end-->
+
+                        <!--commandButton-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    Colored Buttons
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <h:panelGrid columns="1" cellpadding="5">
+                                                    <p:commandButton value="Primary" class="btn space" style="width: 100%;"/>
+                                                    <p:commandButton value="Secondary" class="btn space secondary-button" style="width: 100%;"/>
+                                                    <p:commandButton value="Success" class="btn space success-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Warning" class="btn space warning-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Info" class="btn space info-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Help" class="btn space help-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Danger" class="btn space danger-btn" style="width: 100%;"/>
+                                                </h:panelGrid>
+                                            </div>
+                                            <div class="col-12 col-lg-4">
+                                                <h:panelGrid columns="1" cellpadding="5">
+                                                    <p:commandButton value="Primary" class="btn space raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Secondary" class="btn space secondary-button raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Success" class="btn space success-btn raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Warning" class="btn space warning-btn raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Info" class="btn space info-btn raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Help" class="btn space help-btn raised-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Danger" class="btn space danger-btn raised-btn" style="width: 100%;"/>
+                                                </h:panelGrid>
+                                            </div>
+                                            <div class="col-12 col-lg-4">
+                                                <h:panelGrid columns="1" cellpadding="5">
+                                                    <p:commandButton value="Primary" class="btn space rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Secondary" class="btn space secondary-button rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Success" class="btn space success-btn rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Warning" class="btn space warning-btn rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Info" class="btn space info-btn rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Help" class="btn space help-btn rounded-btn" style="width: 100%;"/>
+                                                    <p:commandButton value="Danger" class="btn space danger-btn rounded-btn" style="width: 100%;"/>
+                                                </h:panelGrid>
+                                            </div>
+                                        </div>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--commandButton end-->
+
+                        <!--Buttons-->
+                        <div class="col-12 col-lg-12">
+                            <div class="card">
+                                <div class="card-header card-header-divider">
+                                    Buttons
+                                </div>
+                                <div class="card-body">
+                                    <h:form>
+                                        <h:panelGrid columns="1" style="margin-bottom:10px" cellpadding="5">
+                                            <h:outputText value="SelectBooleanButton:" />
+                                            <p:selectBooleanButton id="value1" value="" onLabel="Yes" offLabel="No" />
+
+                                            <h:outputText value="SelectOneButton:" />
+                                            <p:selectOneButton>
+                                                <f:selectItem itemLabel="Xbox One" itemValue="Xbox One" />
+                                                <f:selectItem itemLabel="PS4" itemValue="PS4" />
+                                                <f:selectItem itemLabel="Wii U" itemValue="Wii U" />
+                                            </p:selectOneButton>
+
+                                            <h:outputText value="SelectManyButton:" />
+                                            <p:selectManyButton>
+                                                <f:selectItem itemLabel="b" itemValue="b" />
+                                                <f:selectItem itemLabel="u" itemValue="u" />
+                                                <f:selectItem itemLabel="i" itemValue="i" />
+                                            </p:selectManyButton>
+
+                                            <h:outputText value="Button:" />
+                                            <p:button value="Bookmark" />
+
+                                            <h:outputText value="Icon Only:" />
+                                            <p:button icon="fa fa-star"/>
+
+                                            <h:outputText value="CommandLink:" />
+                                            <p:commandLink value="Link"/>
+
+                                            <p:outputLabel for="basic" value="SplitButton:" />
+                                            <p:splitButton id="basic" value="Save" icon="fa fa-check">
+                                                <p:menuitem value="Update" icon="fa fa-refresh" />
+                                                <p:menuitem value="Delete" icon="fa fa-trash" />
+                                                <p:separator />
+                                                <p:menuitem value="Homepage" url="http://www.primefaces.org" icon="fa fa-home" />
+                                            </p:splitButton> 
+                                        </h:panelGrid>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Buttons end-->
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+
+            <ui:param name="card_active" value="active"/>
+            
+            <ui:define name="ui-title">
+                Cards
+            </ui:define>
+
+            <ui:define name="content">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header">Card with links</div>
+                            <div class="card-body">
+                                <p>Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p>
+                                <a class="card-link" href="#">Card link</a>
+                                <a class="card-link" href="#">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header">Card with button</div>
+                            <div class="card-body">
+                                <p>Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p>
+                                <p:commandButton value="Go somewhere"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3"><img class="card-img-top" src="../../resources/img/346x106.png" alt="Placeholder"/>
+                            <div class="card-body">
+                                <p class="card-text-no-title">Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-3"><img class="card-img-top" src="../../resources/img/342x239.png" alt="Placeholder"/>
+                                <div class="card-header">Card with image and links</div>
+                                <div class="card-body">
+                                    <p>Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p><a class="card-link" href="#">Card link</a><a class="card-link" href="#">Another link</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3"><img class="card-img-top" src="../../resources/img/342x239.png" alt="Placeholder"/>
+                                <div class="card-header">Card with image and button</div>
+                                <div class="card-body">
+                                    <p>Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card"><img class="card-img-top" src="../../resources/img/342x239.png" alt="Placeholder"/>
+                                <div class="card-header">Card with image and list</div>
+                                <div class="card-body">
+                                    <p class="mb-0">Quisque gravida aliquam diam at cursus, quisque laoreet ac lectus a rhoncusac tempus odio.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Cras justo odio</li>
+                                    <li class="list-group-item">Vestibulum at eros</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-contrast">
+                            <div class="card-header card-header-contrast card-header-featured">Featured</div>
+                            <div class="card-body">
+                                <div class="card-title">Card with Header</div>
+                                <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-stretch">
+                        <div class="card card-contrast">
+                            <div class="card-header card-header-contrast card-header-featured">Quote</div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Fringilla ante nec tincidunt.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card card-contrast text-center">
+                            <div class="card-header card-header-contrast card-header-featured">Featured</div>
+                            <div class="card-body">
+                                <div class="card-title">Card with Header and Footer</div>
+                                <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                            </div>
+                            <div class="card-footer card-footer-contrast text-muted">2 days ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header">Card align left</div>
+                            <div class="card-body">
+                                <p>Proin risus orci, feugiat sit amet fringilla eget, aliquet vestibulum enim. Curabitur congue odio ut felis tincidunt, ac iaculis tellus lobortis.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-center">
+                            <div class="card-header">Card align center</div>
+                            <div class="card-body">
+                                <p>Proin risus orci, feugiat sit amet fringilla eget, aliquet vestibulum enim. Curabitur congue odio ut felis tincidunt, ac iaculis tellus lobortis.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-right">
+                            <div class="card-header">Card align right</div>
+                            <div class="card-body">
+                                <p>Proin risus orci, feugiat sit amet fringilla eget, aliquet vestibulum enim. Curabitur congue odio ut felis tincidunt, ac iaculis tellus lobortis.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="tab-container">
+                            <ul class="nav nav-tabs nav-tabs-classic" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" href="#active" data-toggle="tab" role="tab">Active</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#link" data-toggle="tab" role="tab">Link</a></li>
+                                <li class="nav-item"><a class="nav-link disabled" href="#disabled" data-toggle="tab" role="tab">Disabled</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="active" role="tabpanel">
+                                <div class="card text-center">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="link" role="tabpanel">
+                                <div class="card">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="disabled" role="tabpanel">
+                                <div class="card text-right">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tab-container">
+                            <ul class="nav nav-tabs card-nav-tabs" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" href="#active2" data-toggle="tab" role="tab">Active</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#link2" data-toggle="tab" role="tab">Link</a></li>
+                                <li class="nav-item"><a class="nav-link disabled" href="#disabled2" data-toggle="tab" role="tab">Disabled</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="active2" role="tabpanel">
+                                <div class="card text-center">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="link2" role="tabpanel">
+                                <div class="card">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="disabled2" role="tabpanel">
+                                <div class="card text-right">
+                                    <div class="card-header">Card with tabs complete</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis Praesent finibus est sit amet orci posuere vulputate. </p><a class="btn btn-primary" href="#">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card"><img class="card-img-top" src="../../resources/img/529x161.png" alt="Placeholder"/>
+                                <div class="card-header">Card with image top</div>
+                                <div class="card-body">
+                                    <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                    <p> <small class="text-muted">Last update 3 mins ago</small></p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header">Card with image bottom</div>
+                            <div class="card-body">
+                                <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                <p> <small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div><img class="card-img-bottom" src="../../resources/img/529x161.png" alt="Placeholder"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card bg-dark text-white"><img class="card-img" src="../../resources/img/1088x336.png" alt="Placeholder"/>
+                                <div class="card-img-overlay card-img-overlay-center">
+                                    <div class="card-title">Card with image overlays</div>
+                                    <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card-group">
+                            <div class="card card-contrast"><img class="card-img-top" src="../../resources/img/362x239.png" alt="Placeholder"/>
+                                    <div class="card-header">Card groups</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                    </div>
+                                    <div class="card-footer card-footer-contrast text-muted">Last updated 3 mins ago</div>
+                            </div>
+                            <div class="card card-contrast"><img class="card-img-top" src="../../resources/img/362x239.png" alt="Placeholder"/>
+                                    <div class="card-header">Card groups</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                    </div>
+                                    <div class="card-footer card-footer-contrast text-muted">Last updated 3 mins ago</div>
+                            </div>
+                            <div class="card card-contrast"><img class="card-img-top" src="../../resources/img/362x239.png" alt="Placeholder"/>
+                                    <div class="card-header">Card groups</div>
+                                    <div class="card-body">
+                                        <p>Curabitur eleifend augue non convallis condimentum. In iaculis eu est at iaculis. Praesent finibus est sit amet orci posuere vulputate.</p>
+                                    </div>
+                                    <div class="card-footer card-footer-contrast text-muted">Last updated 3 mins ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

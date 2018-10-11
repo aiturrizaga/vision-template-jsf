@@ -1,0 +1,36 @@
+
+:root {
+    /*--Paleta de colores--*/
+    /* primary color */
+    --color-primary: #1976D2;
+    --color-primary-dark: #004BA0;
+    --color-primary-light: #2196F3;
+    /* secondary color */
+    --color-secondary: #E0E0E0;
+    --color-secondary-dark: #BDBDBD;
+    --color-secondary-light: #F5F5F5;
+    /* success color */
+    --color-success: #388E3C;
+    --color-success-dark: #2E7D32;
+    --color-success-light: #4CAF50;
+    /* warning-color */
+    --color-warning: #FFA000;
+    --color-warning-dark: #FF8F00;
+    --color-warning-light: #FFC107;
+    /* help color */
+    --color-help: #00796B;
+    --color-help-dark: #00695C;
+    --color-help-light: #009688;
+    /* danger color */
+    --color-danger: #E64A19;
+    --color-danger-dark: #D84315;
+    --color-danger-light: #FF5722;
+    /* user interface */
+    --ui-border-color: var(--color-primary);
+    --ui-font-family: Roboto;
+    --ui-color-header: var(--color-primary);
+    --ui-message-color-info: var(--color-primary);
+    --ui-message-font-info: #ffffff;
+    --ui-message-color-warn: var(--color-warning);
+    --ui-message-font-warn: #000000;
+}

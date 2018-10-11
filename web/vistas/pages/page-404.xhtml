@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Vision</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+        <h:outputStylesheet library="css" name="theme.css"/>
+        <h:outputStylesheet library="css" name="color.css"/>
+        <h:outputStylesheet library="css" name="app.css"/>
+        <h:outputStylesheet library="css" name="bootstrap-float-label.min.css"/>
+        <h:outputStylesheet name="lib/perfect-scrollbar/css/perfect-scrollbar.css"/>
+        <h:outputStylesheet name="lib/mprogress/css/mprogress.min.css"/>
+        <h:outputStylesheet name="lib/material-design-icons/css/material-design-iconic-font.min.css"/>
+    </h:head>
+    <h:body class="be-splash-screen">
+        <div class="be-wrapper be-error be-error-404">
+            <div class="be-content">
+                <div class="main-content container-fluid">
+                    <div class="error-container">
+                        <div class="error-number">404</div>
+                        <div class="error-description">La página que buscas no existe.</div>
+                        <div class="error-goback-button"><h:link outcome="/vistas/dashboard/dashboard">Volver al inicio</h:link></div>
+                        <div class="footer">&copy; 2018 Vision</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h:outputScript library="primefaces" name="jquery/jquery.js" target="head" />
+        <h:outputScript library="primefaces" name="jquery/jquery-plugins.js" target="head" />
+        <h:outputScript name="lib/perfect-scrollbar/js/perfect-scrollbar.min.js"/>
+        <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+        <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+        <h:outputScript library="js" name="app.js"/>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                //-initialize the javascript
+                App.init();
+            });
+
+        </script>
+    </h:body>
+</html>
+

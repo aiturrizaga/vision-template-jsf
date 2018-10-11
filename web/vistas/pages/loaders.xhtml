@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./../template/template-admin.xhtml">
+
+            <ui:param name="loader_active" value="active"/>
+            
+            <ui:define name="ui-title">
+                Loaders
+            </ui:define>
+
+            <ui:define name="content">
+                <div class="row">
+                    <div class="col-lg-7 offset-lg-2">
+                        <div class="be-loading-active">
+                            <div class="be-spinner">
+                                <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://-www.w3.org/2000/svg">
+                                    <circle fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30" class="circle"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 offset-lg-2">
+                        <div class="card card-flat be-loading text-center">
+                            <div class="card-header">Load Example</div>
+                            <div class="card-body">
+                                <p>Aliquam posuere volutpat turpis, ut euimod diam pellentesque at. Sed sit amet nulla a dui dignisim
+                                    euismod. Morbi luctus elementum dictum. Donec convallis mattis elit id varius. Quisque facilisis
+                                    sapien quis mauris, erat condimentum.</p>
+                                <button class="btn btn-primary btn-xl toggle-loading">Trigger loader</button>
+                            </div>
+                            <div class="be-spinner">
+                                <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://-www.w3.org/2000/svg">
+                                    <circle class="circle" fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

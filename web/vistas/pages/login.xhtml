@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Vision</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+        <h:outputStylesheet library="css" name="theme.css"/>
+        <h:outputStylesheet library="css" name="color.css"/>
+        <h:outputStylesheet library="css" name="app.css"/>
+        <h:outputStylesheet library="css" name="bootstrap-float-label.min.css"/>
+        <h:outputStylesheet name="lib/perfect-scrollbar/css/perfect-scrollbar.css"/>
+        <h:outputStylesheet name="lib/mprogress/css/mprogress.min.css"/>
+        <h:outputStylesheet name="lib/material-design-icons/css/material-design-iconic-font.min.css"/>
+    </h:head>
+    <h:body class="be-splash-screen">
+        <div class="be-wrapper be-login">
+            <div class="be-content">
+                <div class="main-content container-fluid">
+                    <div class="splash-container">
+                        <div class="card card-border-color card-border-color-primary">
+                            <div class="card-header">
+                                <img class="logo-img" src="../../resources/img/logo-xx.png" alt="logo" width="102" height="27"/>
+                                <span class="splash-description">Bienvenido, logueate para ingresar</span>
+                            </div>
+                            <div class="card-body">
+                                <h:form>
+                                    <div class="form-group">
+                                        <div class="has-float-label">
+                                            <p:inputText class="form-control" id="txtUser" placeholder="Ingrese su usuario" />
+                                            <p:outputLabel for="txtUser" value="Usuario"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="has-float-label">
+                                            <p:password class="form-control" id="txtPass" placeholder="Ingrese su contraseña" />
+                                            <p:outputLabel for="txtPass" value="Contraseña"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group login-submit">
+                                        <p:commandButton value="Iniciar sesión" class="btn btn-block" style="height: 40px;font-size: 1.3em;"/>
+                                    </div>
+                                </h:form>
+                            </div>
+                        </div>
+                        <div class="splash-footer"><span>Olvidaste tu contraseña? <a href="#">Recuperala</a></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h:outputScript library="primefaces" name="jquery/jquery.js" target="head" />
+        <h:outputScript library="primefaces" name="jquery/jquery-plugins.js" target="head" />
+        <h:outputScript name="lib/perfect-scrollbar/js/perfect-scrollbar.min.js"/>
+        <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+        <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+        <h:outputScript library="js" name="app.js"/>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                //-initialize the javascript
+                App.init();
+            });
+
+        </script>
+    </h:body>
+</html>
+
