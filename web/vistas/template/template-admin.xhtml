@@ -18,7 +18,7 @@
     <h:outputStylesheet library="css" name="bootstrap-float-label.min.css" />
     <h:outputStylesheet library="css" name="animations.css" />
     <h:outputStylesheet name="lib/perfect-scrollbar/css/perfect-scrollbar.css" />
-    <h:outputStylesheet name="lib/mprogress/css/mprogress.min.css" />
+    <h:outputStylesheet name="lib/nprogress/css/nprogress.css" />
     <h:outputStylesheet name="lib/material-design-icons/css/material-design-iconic-font.min.css" />
 </h:head>
 
@@ -326,6 +326,7 @@
         </ui:insert>
         <div class="be-content #{be_no_padding}">
             <ui:insert name="aside"></ui:insert>
+            <div id="contenedor_carga"></div>
             <div class="main-content container-fluid">
                 <div class="animated fadeInUp fast">
                     <ui:insert name="content">Content</ui:insert>
@@ -578,9 +579,10 @@
     <h:outputScript name="lib/perfect-scrollbar/js/perfect-scrollbar.min.js" />
     <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js" />
     <h:outputScript name="lib/bootstrap/dist/js/bootstrap.bundle.min.js" />
-    <h:outputScript name="lib/mprogress/js/mprogress.min.js" />
+    <h:outputScript name="lib/nprogress/js/nprogress.js" />
     <h:outputScript name="lib/prettify/prettify.js" />
     <h:outputScript library="js" name="app.js" />
+    <h:outputScript library="js" name="jsfcrud.js" />
     <script type="text/javascript">
         $(document).ready(function () {
             //-initialize the javascript
