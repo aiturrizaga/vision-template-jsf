@@ -1,2 +1,2 @@
 # vision-template-jsf
-## Template JSF - Vision
+Template JSF - Vision
