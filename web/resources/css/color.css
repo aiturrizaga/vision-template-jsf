@@ -30,6 +30,7 @@
     --ui-state-error: var(--color-danger);
     --ui-font-family: Roboto;
     --ui-color-header: var(--color-primary);
+    --ui-progress-color: #f7b32d;
     /* message color */
     --ui-message-color-info: var(--color-primary);
     --ui-message-font-info: #ffffff;

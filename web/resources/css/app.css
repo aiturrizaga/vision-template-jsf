@@ -10908,7 +10908,7 @@ canvas {
 
 @media (max-width: 991.98px) {
     .be-top-header .be-navbar-header .navbar-brand {
-        margin-right: 10px
+        margin-right: 2em;
     }
 }
 
