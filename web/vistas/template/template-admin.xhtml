@@ -16,6 +16,7 @@
     <h:outputStylesheet library="css" name="color.css" />
     <h:outputStylesheet library="css" name="app.css" />
     <h:outputStylesheet library="css" name="bootstrap-float-label.min.css" />
+    <h:outputStylesheet library="css" name="animations.css" />
     <h:outputStylesheet name="lib/perfect-scrollbar/css/perfect-scrollbar.css" />
     <h:outputStylesheet name="lib/mprogress/css/mprogress.min.css" />
     <h:outputStylesheet name="lib/material-design-icons/css/material-design-iconic-font.min.css" />
@@ -61,9 +62,11 @@
                         <ul class="nav navbar-nav float-right be-icons-nav">
                             <li class="nav-item dropdown"><a class="nav-link be-toggle-right-sidebar" href="#" role="button"
                                     aria-expanded="false"><span class="icon mdi mdi-settings"></span></a></li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-                                    role="button" aria-expanded="false"><span class="icon mdi mdi-notifications"></span><span
-                                        class="indicator"></span></a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                                            <span class="icon mdi mdi-notifications animated tada infinite delay-2s slow"></span>
+                                            <span class="indicator"></span>
+                                </a>
                                 <ul class="dropdown-menu be-notifications">
                                     <li>
                                         <div class="title">Notificaciones<span class="badge badge-pill">3</span></div>
@@ -324,7 +327,9 @@
         <div class="be-content #{be_no_padding}">
             <ui:insert name="aside"></ui:insert>
             <div class="main-content container-fluid">
-                <ui:insert name="content">Content</ui:insert>
+                <div class="animated fadeInUp fast">
+                    <ui:insert name="content">Content</ui:insert>
+                </div>
             </div>
         </div>
         <nav class="be-right-sidebar">
