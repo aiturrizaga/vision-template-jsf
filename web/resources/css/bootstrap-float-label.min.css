@@ -39,6 +39,10 @@
     opacity: 0;
 }
 
+.has-float-label .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+    opacity: 0;
+}
+
 .has-float-label .form-control:placeholder-shown:not(:focus)+* {
     font-size: 100%;
     opacity: 1;
