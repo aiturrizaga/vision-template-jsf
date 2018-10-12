@@ -1769,11 +1769,11 @@ body .ui-button {
 }
 
 body .ui-button.ui-state-focus {
-  outline: 2px dotted var(--color-primary-light);
+  outline: 2px none var(--color-primary-light);
   outline-offset: 1px;
-  -webkit-box-shadow: 0 none;
-  -moz-box-shadow: 0 none;
-  box-shadow: 0 none;
+  -webkit-box-shadow: 0 0 0 .2rem;
+  -moz-box-shadow: 0 0 0 .2rem;
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 }
 
 body .ui-button.ui-state-hover {
@@ -1843,7 +1843,7 @@ body .ui-button.secondary-button {
 }
 
 body .ui-button.secondary-button.ui-state-focus {
-  outline-color: #212121;
+  box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5);
 }
 
 body .ui-button.secondary-button.ui-state-hover {
@@ -1899,7 +1899,7 @@ body .ui-button.help-btn.ui-state-hover {
 }
 
 body .ui-button.help-btn.ui-state-focus {
-  outline-color: var(--color-help-light);
+  box-shadow: 0 0 0 .2rem rgba(1, 121, 108, .5);
 }
 
 body .ui-button.help-btn.ui-state-active {
@@ -1921,7 +1921,7 @@ body .ui-button.warning-btn.ui-state-hover {
 }
 
 body .ui-button.warning-btn.ui-state-focus {
-  outline-color: var(--color-warning-light);
+  box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5);
 }
 
 body .ui-button.warning-btn.ui-state-active {
@@ -1943,7 +1943,7 @@ body .ui-button.success-btn.ui-state-hover {
 }
 
 body .ui-button.success-btn.ui-state-focus {
-  outline-color: var(--color-success-light);
+  box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .5);
 }
 
 body .ui-button.success-btn.ui-state-active {
@@ -1987,7 +1987,7 @@ body .ui-button.danger-btn.ui-state-hover {
 }
 
 body .ui-button.danger-btn.ui-state-focus {
-  outline-color: var(--color-danger-light);
+  box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .5);
 }
 
 body .ui-button.danger-btn.ui-state-active {
@@ -2057,7 +2057,7 @@ body .ui-selectbooleanbutton.ui-state-active:not(.ui-state-disabled):hover.ui-st
 }
 
 body .ui-selectbooleanbutton.ui-state-focus, body .ui-buttonset:not(.ui-splitbutton)>.ui-button.ui-state-focus {
-  outline: 2px dotted var(--color-primary-light);
+  outline: 2px none var(--color-primary-light);
   background-color: #BBDEFB;
   border-color: #BBDEFB;
   color: var(--color-primary-dark);
@@ -2275,7 +2275,7 @@ body .ui-accordion .ui-accordion-header.ui-state-hover .ui-icon {
 
 body .ui-accordion .ui-accordion-header.ui-tabs-outline {
   outline-offset: 1px;
-  outline: 2px dotted #eeeeee;
+  outline: 2px none #eeeeee;
 }
 
 body .ui-accordion .ui-accordion-header.ui-state-active {
@@ -2301,7 +2301,7 @@ body .ui-accordion .ui-accordion-header.ui-state-active:hover .ui-icon {
 
 body .ui-accordion .ui-accordion-header.ui-state-active.ui-tabs-outline {
   outline-offset: 1px;
-  outline: 2px dotted #eeeeee;
+  outline: 2px none #eeeeee;
 }
 
 body .ui-accordion .ui-accordion-header>.ui-icon {
@@ -2418,7 +2418,7 @@ body .ui-tabs .ui-tabs-nav .ui-tabs-header .ui-icon.ui-icon-close:before {
 
 body .ui-tabs .ui-tabs-nav .ui-tabs-header.ui-tabs-outline {
   outline-offset: 1px;
-  outline: 2px dotted #eeeeee;
+  outline: 2px none #eeeeee;
 }
 
 body .ui-tabs .ui-tabs-nav .ui-tabs-header.ui-state-hover {
@@ -2464,7 +2464,7 @@ body .ui-tabs .ui-tabs-nav .ui-tabs-header.ui-state-active:hover .ui-icon {
 
 body .ui-tabs .ui-tabs-nav .ui-tabs-header.ui-state-active.ui-tabs-outline {
   outline-offset: 1px;
-  outline: 2px dotted #eeeeee;
+  outline: 2px none #eeeeee;
 }
 
 body .ui-tabs .ui-tabs-panels {
