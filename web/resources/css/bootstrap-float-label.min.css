@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.has-float-label label, .has-float-label>span {
+.has-float-label label, .has-float-label>div {
     position: absolute;
     cursor: text;
     font-size: 90%;
@@ -17,7 +17,7 @@
     padding: 0 1px;
 }
 
-.has-float-label label::after, .has-float-label>span::after {
+.has-float-label label::after, .has-float-label>div::after {
     content: " ";
     display: block;
     position: absolute;
