@@ -1773,7 +1773,7 @@ body .ui-button.ui-state-focus {
   outline-offset: 1px;
   -webkit-box-shadow: 0 0 0 .2rem;
   -moz-box-shadow: 0 0 0 .2rem;
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  box-shadow: 0 0 0 .2rem var(--color-primary-box-shadow);
 }
 
 body .ui-button.ui-state-hover {
@@ -1843,7 +1843,7 @@ body .ui-button.secondary-button {
 }
 
 body .ui-button.secondary-button.ui-state-focus {
-  box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5);
+  box-shadow: 0 0 0 .2rem var(--color-secondary-box-shadow);
 }
 
 body .ui-button.secondary-button.ui-state-hover {
@@ -1899,7 +1899,7 @@ body .ui-button.help-btn.ui-state-hover {
 }
 
 body .ui-button.help-btn.ui-state-focus {
-  box-shadow: 0 0 0 .2rem rgba(1, 121, 108, .5);
+  box-shadow: 0 0 0 .2rem var(--color-help-box-shadow);
 }
 
 body .ui-button.help-btn.ui-state-active {
@@ -1921,7 +1921,7 @@ body .ui-button.warning-btn.ui-state-hover {
 }
 
 body .ui-button.warning-btn.ui-state-focus {
-  box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5);
+  box-shadow: 0 0 0 .2rem var(--color-warning-box-shadow);
 }
 
 body .ui-button.warning-btn.ui-state-active {
@@ -1943,7 +1943,7 @@ body .ui-button.success-btn.ui-state-hover {
 }
 
 body .ui-button.success-btn.ui-state-focus {
-  box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .5);
+  box-shadow: 0 0 0 .2rem var(--color-success-box-shadow);
 }
 
 body .ui-button.success-btn.ui-state-active {
@@ -1987,7 +1987,7 @@ body .ui-button.danger-btn.ui-state-hover {
 }
 
 body .ui-button.danger-btn.ui-state-focus {
-  box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .5);
+  box-shadow: 0 0 0 .2rem var(--color-danger-box-shadow);
 }
 
 body .ui-button.danger-btn.ui-state-active {
