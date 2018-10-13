@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="../../resources/img/favicon.png" type="image/png"/>
+    <link rel="shortcut icon" href="../../resources/img/favicon.png" type="image/png" />
     <title>Vision</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -16,6 +16,7 @@
     <h:outputStylesheet library="css" name="theme.css" />
     <h:outputStylesheet library="css" name="color.css" />
     <h:outputStylesheet library="css" name="app.css" />
+    <h:outputStylesheet library="css" name="style.css" />
     <h:outputStylesheet library="css" name="bootstrap-float-label.min.css" />
     <h:outputStylesheet library="css" name="animations.css" />
     <h:outputStylesheet name="lib/perfect-scrollbar/css/perfect-scrollbar.css" />
@@ -64,9 +65,12 @@
                             <li class="nav-item dropdown"><a class="nav-link be-toggle-right-sidebar" href="#" role="button"
                                     aria-expanded="false"><span class="icon mdi mdi-settings"></span></a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
-                                            <span id="bell" class="icon mdi mdi-notifications animated tada infinite delay-2s slow"></span>
-                                            <span class="indicator"></span>
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                                    aria-expanded="false">
+                                    <span id="bell" class="icon mdi mdi-notifications"></span>
+                                    <div class="notifyPanel animated fadeIn faster">
+                                        <span class="inner">3</span>
+                                    </div>
                                 </a>
                                 <ul class="dropdown-menu be-notifications">
                                     <li>

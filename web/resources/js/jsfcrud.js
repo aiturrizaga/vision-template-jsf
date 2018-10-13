@@ -18,9 +18,3 @@ window.onload = function () {
         $('.fade').removeClass('out');
     }, 500);
 }
-
-
-/*Funciones*/
-$("#bell").click(function(){
-    $("#bell").removeClass("animated tada infinite delay-2s slow");
-});
