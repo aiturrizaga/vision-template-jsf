@@ -16319,13 +16319,14 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 
 .invoice {
     background-color: #fff;
-    padding: 100px 100px 70px;
-    color: #8c8c8c
+    padding: 50px 50px 35px;
+    color: #8c8c8c;
+    border-radius: 5px;
 }
 
 @media (max-width: 991.98px) {
     .invoice {
-        padding: 50px 50px 35px
+        padding: 50px 50px 35px;
     }
 }
 
