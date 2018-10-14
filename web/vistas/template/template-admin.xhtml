@@ -330,6 +330,13 @@
             </div>
         </ui:insert>
         <div class="be-content #{be_no_padding}">
+            <div id="contenedor_carga">
+                <div class="load-bar">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
             <ui:insert name="aside"></ui:insert>
             <div class="main-content container-fluid">
                 <div class="animated fadeIn fast">
@@ -587,6 +594,7 @@
     <h:outputScript name="lib/prettify/prettify.js" />
     <h:outputScript library="js" name="app.js" />
     <h:outputScript library="js" name="jsfcrud.js" />
+    <h:outputScript library="js" name="script.js" />
     <script type="text/javascript">
         $(document).ready(function () {
             //-initialize the javascript
