@@ -12677,7 +12677,7 @@ canvas {
 .be-offcanvas-menu .be-left-sidebar .menu-logo {
     height: 60px;
     width: 150px;
-    background-image: url(../img/logo.png);
+    background-image: url(../../resources/img/logo.png);
     background-repeat: no-repeat;
     background-position: 20px center;
     display: block;
@@ -16353,18 +16353,17 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 }
 
 .invoice-logo {
-    height: 54px;
+    height: auto;
+    width: 102px;
     min-width: 204px;
-    background-image: url(../img/logo-xx.png);
     background-repeat: no-repeat;
     background-position: 0
 }
 
 @media (max-width: 991.98px) {
     .invoice-logo {
-        height: 27px;
+        height: auto;
         width: 102px;
-        background-image: url(../img/logo.png)
     }
 }
 
@@ -16380,7 +16379,6 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
     .invoice-logo {
         height: 27px!important;
         width: 102px!important;
-        background-image: url(../img/logo.png)!important;
         display: block!important;
         background-repeat: no-repeat!important
     }
@@ -23875,7 +23873,7 @@ form.dropzone .dz-preview .dz-error-message {
 }
 
 .gritter-item-wrapper {
-    background: url(../lib/jquery.gritter/images/gritter-bg.png);
+    background: url(../../resources/lib/jquery.gritter/images/gritter-bg.png);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     box-shadow: 0 0 4px rgba(0, 0, 0, .2)
 }
