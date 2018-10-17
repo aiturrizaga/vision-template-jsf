@@ -2,9 +2,13 @@
 :root {
     /*--Paleta de colores--*/
     /* primary color */
-    --color-primary: #1976D2;
+    /* --color-primary: #1976D2;
     --color-primary-dark: #004BA0;
     --color-primary-light: #2196F3;
+    --color-primary-box-shadow: rgba(0, 123, 255, .5); */
+    --color-primary: red;
+    --color-primary-dark: red;
+    --color-primary-light: red;
     --color-primary-box-shadow: rgba(0, 123, 255, .5);
     /* secondary color */
     --color-secondary: #E0E0E0;

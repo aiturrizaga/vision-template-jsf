@@ -9,9 +9,9 @@
     <body>
 
         <ui:composition template="./../template/template-admin.xhtml">
-            
+
             <ui:param name="data_active" value="active"/>
-            
+
             <ui:define name="ui-title">
                 Data
             </ui:define>
@@ -26,20 +26,30 @@
                             </div>
                             <div class="card-body">
                                 <h:form>
-                                    <p:dataTable>
+                                    <p:dataTable id="cars" var="car" value="#{dtBasicView.cars}"
+                                                 rowKey="#{car.randomId}"
+                                                 selection="#{dtBasicView.selected}"
+                                                 selectionMode="single">
                                         <p:column headerText="Id">
-                                            <p:outputLabel value=""/>
+                                            <h:outputText value="#{car.randomId}" />
                                         </p:column>
+
                                         <p:column headerText="Year">
-                                            <p:outputLabel value=""/>
+                                            <h:outputText value="#{car.randomYear}" />
                                         </p:column>
+
                                         <p:column headerText="Brand">
-                                            <p:outputLabel value=""/>
+                                            <h:outputText value="#{car.randomBrand}" />
                                         </p:column>
+
                                         <p:column headerText="Color">
-                                            <p:outputLabel value=""/>
+                                            <h:outputText value="#{car.randomColor}" />
                                         </p:column>
                                     </p:dataTable>
+                                    <p:contextMenu for="cars">
+                                        <p:menuitem value="View" icon="ui-icon-search"/>
+                                        <p:menuitem value="Delete" icon="ui-icon-close"/>
+                                    </p:contextMenu>
                                 </h:form>
                             </div>
                         </div>
