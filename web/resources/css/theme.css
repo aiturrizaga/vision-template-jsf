@@ -588,7 +588,7 @@ body .ui-selectonemenu.ui-state-error {
 
 body .ui-selectonemenu-panel {
   background: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -657,7 +657,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-s
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item.ui-selectonemenu-row>td {
@@ -674,7 +674,7 @@ body .ui-selectonemenu-panel .ui-selectonemenu-items .ui-selectonemenu-item-grou
 
 body .ui-selectcheckboxmenu {
   vertical-align: initial;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   position: relative;
   -moz-transition: border-color 0.3s, box-shadow 0.3s;
   -o-transition: border-color 0.3s, box-shadow 0.3s;
@@ -808,7 +808,7 @@ body .ui-selectcheckboxmenu .ui-selectcheckboxmenu-multiple-container .ui-select
 body .ui-selectcheckboxmenu-panel {
   padding: 0;
   background: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1172,7 +1172,7 @@ body .ui-slider .ui-slider-range {
 
 body .ui-datepicker {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em;
   width: 18.571em;
@@ -1241,7 +1241,7 @@ body .ui-datepicker .ui-datepicker-title {
   line-height: normal;
   background-color: inherit;
   color: #212121;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datepicker .ui-datepicker-title select {
@@ -1289,11 +1289,11 @@ body .ui-datepicker .ui-datepicker-calendar td a.ui-state-active {
 body .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a {
   background-color: #ffffff;
   color: #212121;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datepicker.ui-shadow {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1456,7 +1456,7 @@ body .ui-fluid .ui-spinner .ui-spinner-input {
 
 body .ui-multiselectlistbox .ui-multiselectlistbox-listcontainer {
   margin-right: 0.429em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   padding: 0;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -1999,7 +1999,7 @@ body .ui-button.danger-btn.ui-state-active {
 body .ui-selectbooleanbutton, body .ui-buttonset:not(.ui-splitbutton)>.ui-button {
   background-color: var(--color-secondary-light);
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   font-size: 14px;
   margin: 0;
   outline: 0 none;
@@ -2120,7 +2120,7 @@ body .ui-panel .ui-panel-titlebar {
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
   -moz-border-radius-topleft: 3px;
   -webkit-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
@@ -2245,7 +2245,7 @@ body .ui-accordion .ui-accordion-header {
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 500;
+  font-weight: 550;
   position: static;
   margin-top: 2px;
   -moz-transition: background-color 0.3s;
@@ -2377,7 +2377,7 @@ body .ui-tabs .ui-tabs-nav .ui-tabs-header {
   padding: 0;
   border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
-  font-weight: 600;
+  font-weight: 550;
   top: 0;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
@@ -2468,7 +2468,7 @@ body .ui-tabs .ui-tabs-nav .ui-tabs-header.ui-state-active.ui-tabs-outline {
 }
 
 body .ui-tabs .ui-tabs-panels {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0;
@@ -2486,7 +2486,7 @@ body .ui-tabs .ui-tabs-navscroller {
 }
 
 body .ui-tabs .ui-tabs-navscroller .ui-tabs-navscroller-btn {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #757575;
   outline: 0 none;
@@ -2604,22 +2604,22 @@ body .ui-tabs.ui-tabs-left .ui-tabs-nav {
 }
 
 body .ui-panelgrid .ui-panelgrid-cell {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
 }
 
 body .ui-panelgrid .ui-panelgrid-cell.ui-widget-header {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-scrollpanel {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -2639,7 +2639,7 @@ body .ui-scrollpanel .ui-scrollpanel-corner {
 }
 
 body .ui-toolbar {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
@@ -2650,18 +2650,18 @@ body .ui-toolbar .ui-button {
 }
 
 body .ui-fieldset {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
 }
 
 body .ui-fieldset .ui-fieldset-legend {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-fieldset .ui-fieldset-legend .ui-fieldset-toggler {
@@ -2717,11 +2717,11 @@ body .ui-notificationbar {
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-wizard .ui-wizard-step-titles .ui-wizard-step-title {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
@@ -2759,7 +2759,7 @@ body .ui-wizard .ui-wizard-step-titles .ui-wizard-step-title.ui-state-highlight 
 
 body .ui-paginator {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   padding: 0;
 }
 
@@ -2920,7 +2920,7 @@ body .ui-paginator .ui-paginator-current, body .ui-paginator .ui-paginator-rpp-o
 
 body .ui-datatable .ui-datatable-header, body .ui-datatable .ui-datatable-footer {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
   font-weight: 550;
@@ -2948,13 +2948,13 @@ body .ui-datatable .ui-paginator.ui-paginator-bottom {
 
 body .ui-datatable thead th {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.5em 1.214em;
 }
 
 body .ui-datatable thead th .ui-column-title {
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datatable thead th .ui-sortable-column-icon.ui-icon-carat-2-n-s {
@@ -3018,7 +3018,7 @@ body .ui-datatable thead th.ui-state-active {
 body .ui-datatable .ui-datatable-data>tr {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-datatable .ui-datatable-data>tr>td {
@@ -3028,9 +3028,9 @@ body .ui-datatable .ui-datatable-data>tr>td {
 
 body .ui-datatable .ui-datatable-data>tr>td.ui-datatable-subtable-header {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datatable .ui-datatable-data>tr.ui-datatable-even {
@@ -3038,13 +3038,13 @@ body .ui-datatable .ui-datatable-data>tr.ui-datatable-even {
 }
 
 body .ui-datatable .ui-datatable-data>tr.ui-state-hover {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: var(--ui-hover-background-color);
   color: var(--ui-hover-font-color);
 }
 
 body .ui-datatable .ui-datatable-data>tr.ui-state-highlight {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: var(--color-primary);
   color: #ffffff;
   cursor: default;
@@ -3055,7 +3055,7 @@ body .ui-datatable .ui-datatable-data>tr.ui-datatable-selectable {
 }
 
 body .ui-datatable .ui-datatable-data>tr.ui-rowgroup-header, body .ui-datatable .ui-datatable-data>tr.ui-datatable-summaryrow {
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datatable .ui-datatable-data>tr .ui-row-editor>a {
@@ -3221,10 +3221,10 @@ body .ui-datatable .ui-column-resizer-helper {
 
 body .ui-datatable tfoot td {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.5em 1.214em;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 body .ui-datatable>.ui-icon-arrowthick-1-s {
@@ -3295,10 +3295,10 @@ body .ui-datatable .ui-selection-column .ui-chkbox-all {
 
 body .ui-datagrid .ui-datagrid-header, body .ui-datagrid .ui-datagrid-footer {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datagrid .ui-datagrid-header {
@@ -3310,7 +3310,7 @@ body .ui-datagrid .ui-datagrid-footer {
 }
 
 body .ui-datagrid .ui-datagrid-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -3331,10 +3331,10 @@ body .ui-datagrid .ui-paginator.ui-paginator-bottom {
 
 body .ui-datalist .ui-datalist-header, body .ui-datalist .ui-datalist-footer {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datalist .ui-datalist-header {
@@ -3346,7 +3346,7 @@ body .ui-datalist .ui-datalist-footer {
 }
 
 body .ui-datalist .ui-datalist-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -3367,10 +3367,10 @@ body .ui-datalist .ui-paginator.ui-paginator-bottom {
 
 body .ui-datascroller .ui-datascroller-header, body .ui-datascroller .ui-datascroller-footer {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-datascroller .ui-datascroller-header {
@@ -3382,7 +3382,7 @@ body .ui-datascroller .ui-datascroller-footer {
 }
 
 body .ui-datascroller .ui-datascroller-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -3528,11 +3528,11 @@ body .ui-picklist .ui-picklist-buttons .ui-icon-arrowstop-1-w:before {
 
 body .ui-picklist .ui-picklist-caption {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
   border-bottom: 0 none;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-picklist .ui-picklist-filter-container .ui-picklist-filter {
@@ -3564,7 +3564,7 @@ body .ui-picklist .ui-picklist-filter-container .ui-icon:before {
 }
 
 body .ui-picklist .ui-picklist-list {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0;
@@ -3732,11 +3732,11 @@ body .ui-orderlist .ui-orderlist-controls .ui-icon-arrowstop-1-s:before {
 
 body .ui-orderlist .ui-orderlist-caption {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
   border-bottom: 0 none;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-orderlist .ui-g>div {
@@ -3748,7 +3748,7 @@ body .ui-orderlist .ui-g>div.ui-orderlist-controls {
 }
 
 body .ui-orderlist .ui-orderlist-list {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0;
@@ -3788,10 +3788,10 @@ body .ui-orderlist.ui-grid-responsive .ui-grid-row .ui-orderlist-controls {
 
 body .ui-treetable .ui-treetable-header, body .ui-treetable .ui-treetable-footer {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
   border-bottom: 0 none;
 }
 
@@ -3809,10 +3809,10 @@ body .ui-treetable .ui-paginator.ui-paginator-bottom {
 
 body .ui-treetable thead th {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.5em 1.214em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-treetable thead th .ui-icon.ui-icon-carat-2-n-s {
@@ -3876,7 +3876,7 @@ body .ui-treetable thead th.ui-state-active {
 body .ui-treetable .ui-treetable-data>tr {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-treetable .ui-treetable-data>tr>td {
@@ -3954,13 +3954,13 @@ body .ui-treetable .ui-treetable-data>tr>td .ui-chkbox.ui-selection .ui-icon-che
 }
 
 body .ui-treetable .ui-treetable-data>tr.ui-state-hover {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: var(--ui-hover-background-color);
   color: var(--ui-hover-font-color);
 }
 
 body .ui-treetable .ui-treetable-data>tr.ui-state-highlight {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: var(--color-primary);
   color: #ffffff;
 }
@@ -4052,10 +4052,10 @@ body .ui-treetable .ui-treetable-data>tr.ui-row-editing>td.ui-editable-column:fi
 
 body .ui-treetable tfoot td {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.5em 1.214em;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 body .ui-treetable .ui-treetable-scrollable-body::-webkit-scrollbar {
@@ -4086,9 +4086,9 @@ body .ui-carousel .ui-carousel-header {
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   margin: 0;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-carousel .ui-carousel-header .ui-carousel-header-title {
@@ -4100,19 +4100,19 @@ body .ui-carousel .ui-carousel-footer {
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   margin: 0;
 }
 
 body .ui-carousel .ui-carousel-viewport {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0;
 }
 
 body .ui-carousel .ui-carousel-viewport .ui-carousel-item {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-carousel .ui-carousel-button {
@@ -4218,7 +4218,7 @@ body .ui-carousel .ui-carousel-page-links .ui-carousel-page-link.ui-icon-radio-o
 }
 
 body .ui-tree {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -4354,7 +4354,7 @@ body .ui-tree.ui-tree-horizontal {
 }
 
 body .ui-tree.ui-tree-horizontal .ui-treenode-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -4449,19 +4449,19 @@ body .ui-fluid .ui-tree {
 
 body .fc th {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
   padding: 0.857em 1em;
 }
 
 body .fc td.ui-widget-content {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #212121;
 }
 
 body .fc td.fc-head-container {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .fc .fc-event {
@@ -4504,7 +4504,7 @@ body .fc .fc-toolbar .ui-button .ui-icon-circle-triangle-e:before {
 
 body .fc .fc-divider {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-fluid .fc .fc-toolbar .ui-button {
@@ -4512,7 +4512,7 @@ body .ui-fluid .fc .fc-toolbar .ui-button {
 }
 
 body .ui-tagcloud {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -4562,14 +4562,14 @@ body .ui-columntoggler .ui-columntoggler-items .ui-columntoggler-item label {
 }
 
 body .timeline-frame {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
 }
 
 body .timeline-frame .timeline-navigation {
   background-color: #eeeeee;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   color: #757575;
 }
 
@@ -4642,7 +4642,7 @@ body .timeline-frame .timeline-navigation .ui-icon:hover {
 }
 
 body .timeline-frame .timeline-event {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
 }
@@ -5087,7 +5087,7 @@ body .ui-overlaypanel {
   background-color: #ffffff;
   color: #212121;
   padding: 0;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -5140,7 +5140,7 @@ body .ui-overlaypanel .ui-overlaypanel-close .ui-icon:before {
 body .ui-dialog {
   padding: 1em 2em;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -5156,7 +5156,7 @@ body .ui-dialog .ui-dialog-titlebar .ui-dialog-title {
   margin: 0;
   float: none;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 550;
   color: #212121;
 }
 
@@ -5327,11 +5327,11 @@ body .ui-lightbox {
 }
 
 body .ui-lightbox .ui-lightbox-caption {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 body .ui-lightbox .ui-lightbox-caption .ui-lightbox-caption-text {
@@ -5461,7 +5461,7 @@ body .ui-sidebar {
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -5489,7 +5489,7 @@ body .ui-sidebar .ui-sidebar-close .ui-icon:before {
 
 body .ui-breadcrumb {
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   padding: 0.571em 1em;
 }
 
@@ -5585,7 +5585,7 @@ body .ui-steps .ui-steps-item .ui-menuitem-link .ui-steps-number {
   display: inline-block;
   color: #212121;
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   position: relative;
   top: 14px;
   margin-bottom: 14px;
@@ -5608,7 +5608,7 @@ body .ui-steps .ui-steps-item.ui-state-highlight .ui-steps-number {
 }
 
 body .ui-steps .ui-steps-item.ui-state-highlight .ui-steps-title {
-  font-weight: 600;
+  font-weight: 550;
   color: #212121;
 }
 
@@ -5629,11 +5629,11 @@ body .ui-steps:before {
 body .ui-menu {
   padding: 0;
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-menu.ui-shadow {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -5687,7 +5687,7 @@ body .ui-menu.ui-menu-toggleable .ui-menu-list .ui-widget-header h3 {
 body .ui-menu .ui-menu-list .ui-widget-header {
   margin: 0;
   width: 100%;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   border-left: 0 none;
@@ -5709,7 +5709,7 @@ body .ui-menu .ui-menu-list .ui-widget-header:first-child {
 
 body .ui-menu .ui-menu-list .ui-widget-header h3 {
   padding: 0;
-  font-weight: 600;
+  font-weight: 550;
   color: #212121;
   float: none;
   font-size: 14px;
@@ -5946,10 +5946,10 @@ body .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem {
   vertical-align: top;
   float: none;
   padding: 0;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   border-bottom: 0 none;
   background-color: #eeeeee;
-  font-weight: 600;
+  font-weight: 550;
   top: 0;
   margin-bottom: -1px;
   -moz-transition: background-color 0.3s;
@@ -6008,11 +6008,11 @@ body .ui-panelmenu .ui-icon {
 }
 
 body .ui-panelmenu .ui-panelmenu-header {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
   position: static;
   font-size: 14px;
   margin-top: 2px;
@@ -6108,7 +6108,7 @@ body .ui-panelmenu .ui-panelmenu-header.ui-state-active:hover .ui-icon, body .ui
 body .ui-panelmenu .ui-panelmenu-content {
   padding: 0;
   background-color: #ffffff;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   margin-top: 0;
   position: static;
   border-top: 0 none;
@@ -6248,7 +6248,7 @@ body .ui-galleria .ui-galleria-nav-next:before {
 }
 
 body .ui-clock {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -6262,11 +6262,11 @@ body .ui-log {
 }
 
 body .ui-log .ui-log-header {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
-  font-weight: 600;
+  font-weight: 550;
   height: auto;
 }
 
@@ -6385,7 +6385,7 @@ body .ui-log .ui-log-header .ui-log-button .ui-icon-alert:before {
 body .ui-log .ui-log-content {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   padding: 0.571em 1em;
   line-height: 1.5;
 }
@@ -6393,7 +6393,7 @@ body .ui-log .ui-log-content {
 body .ui-terminal {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   padding: 0.571em 1em;
 }
 

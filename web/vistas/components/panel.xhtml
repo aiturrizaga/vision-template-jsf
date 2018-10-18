@@ -63,16 +63,119 @@
                                     </div>
                                     <div class="card-body">
                                         <h:form>
-                                            <p:panel id="basic" header="Basic" footer="Movie Details" style="margin-bottom:20px">
-                                                <h:panelGrid columns="2" cellpadding="10">
-                                                    <h:outputText value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil iure ullam laudantium odio sed eum, atque facilis non repellat nisi animi ea! Labore illo eligendi itaque optio. Autem, in." />
-                                                </h:panelGrid>
-                                            </p:panel>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <h3>Basic</h3>
+                                                    <p:panel id="basic" header="Basic" footer="Movie Details" style="margin-bottom:20px">
+                                                        <h:panelGrid columns="2" cellpadding="10">
+                                                            <h:outputText value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil iure ullam laudantium odio sed eum, atque facilis non repellat nisi animi ea! Labore illo eligendi itaque optio. Autem, in." />
+                                                        </h:panelGrid>
+                                                    </p:panel>
+                                                </div>
+                                                <div class="col-12 col-lg-3">
+                                                    <h3>PanelGrid</h3>
+                                                    <p:panelGrid columns="2">
+                                                        <h:outputText value="Name:" />
+                                                        <h:outputText value="Kobe Bryant" />
+
+                                                        <h:outputText value="Team:" />
+                                                        <h:outputText value="Los Angeles Lakers" />
+
+                                                        <h:outputText value="Position:" />
+                                                        <h:outputText value="Shooting Guard" />
+
+                                                        <h:outputText value="Number:" />
+                                                        <h:outputText value="24" />
+                                                    </p:panelGrid>
+                                                </div>
+                                                <div class="col-12 col-lg-3">
+                                                    <h3>ScrollPanel</h3>
+                                                    <p:scrollPanel style="width:250px;height:200px">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit tortor a ipsum vehicula, in semper sapien auctor. Nulla tempor eget est non consequat. Nulla sit amet lorem justo. Cras non tellus eros. Sed ultricies orci ut quam interdum fringilla. Nam vitae massa ac mi elementum mattis vel vitae sem. Ut eros ipsum, scelerisque a erat a, eleifend luctus nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                                        </p>
+                                                        <p>
+                                                            Vivamus ac ullamcorper magna. Aenean felis ante, elementum sit amet urna at, eleifend aliquet velit. Morbi a convallis magna. In nec leo vel dolor hendrerit pharetra. Cras in iaculis enim. Aenean porta sapien dignissim turpis dapibus, eu dictum velit elementum. Aliquam sollicitudin gravida luctus.
+                                                        </p>
+                                                        <p>
+                                                            Ut vel nulla sit amet erat laoreet eleifend nec sed lacus. Quisque placerat diam vitae justo eleifend, rutrum mollis mauris fringilla. Curabitur turpis odio, euismod id lorem a, ultricies suscipit ligula. Pellentesque ut erat a leo rhoncus porta ac sed velit. Nunc at erat ligula. Fusce vehicula posuere interdum. Curabitur tempus, tortor at sollicitudin dapibus, erat ante varius nisl, id dictum erat ipsum porttitor ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla id varius enim, sed rutrum orci.
+                                                        </p>
+                                                        <p>
+                                                            Sed tincidunt urna quis metus lacinia commodo. Praesent convallis eros vel quam scelerisque bibendum. Mauris eget dignissim libero. Pellentesque sagittis sem quis ipsum viverra, sed consequat mi consectetur. Donec facilisis dapibus ultrices. Donec luctus auctor lacus, at congue nisi aliquet eu. Praesent in justo at risus faucibus ultricies. Fusce et libero lectus. Donec elementum pharetra sapien, at placerat purus sodales et. Vivamus iaculis lacus sed placerat rhoncus. Mauris iaculis sit amet nunc at placerat. Donec consequat euismod lacinia. Etiam nec quam vehicula, cursus massa in, ullamcorper erat.
+                                                        </p>
+                                                        <p>
+                                                            Praesent volutpat scelerisque vestibulum. In eu massa non neque rutrum commodo. Nunc vel enim nisi. Aenean leo ipsum, molestie vel justo nec, pharetra luctus dui. Nunc rhoncus turpis id lorem luctus consequat. Nulla condimentum adipiscing turpis consequat semper. Etiam ullamcorper velit nec hendrerit malesuada. Praesent venenatis leo sit amet arcu commodo, sit amet porta tellus suscipit. Quisque mi tortor, vestibulum in arcu non, pretium auctor libero. In commodo luctus placerat.
+                                                        </p>
+                                                    </p:scrollPanel>
+                                                </div>
+                                            </div>
                                         </h:form>
                                     </div>
                                 </div>
                             </div>
                             <!--panel end-->
+
+                            <!--panel-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        Tabs
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <h3 style="margin-top:0">Basic</h3>
+                                            <p:tabView>
+                                                <p:tab title="Godfather Part I">
+                                                    <h:panelGrid columns="1" cellpadding="10">
+                                                        <h:outputText
+                                                            value="The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. 
+                                                            His beloved son Michael has just come home from the war, but does not intend to become part of his father's business.
+                                                            Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, 
+                                                            but given to ruthless violence whenever anything stands against the good of the family." />
+                                                    </h:panelGrid>
+                                                </p:tab>
+                                                <p:tab title="Godfather Part II">
+                                                    <h:panelGrid columns="1" cellpadding="10">
+                                                        <h:outputText value="Francis Ford Coppola's legendary continuation and sequel to his landmark 1972 film, The_Godfather, parallels the young Vito Corleone's rise with his son Michael's spiritual fall, deepening The_Godfather's depiction of the dark side of the American dream. 
+                                                                      In the early 1900s, the child Vito flees his Sicilian village for America after the local Mafia kills his family. Vito struggles to make a living, legally or illegally, for his wife and growing brood in Little Italy, 
+                                                                      killing the local Black Hand Fanucci after he demands his customary cut of the tyro's business. With Fanucci gone, Vito's communal stature grows." />
+                                                    </h:panelGrid>
+                                                </p:tab>
+                                                <p:tab title="Godfather Part III">
+                                                    <h:panelGrid columns="1" cellpadding="10">
+                                                        <h:outputText value="After a break of more than 15 years, director Francis Ford Coppola and writer Mario Puzo returned to the well for this third and final story of the fictional Corleone crime family. 
+                                                                      Two decades have passed, and crime kingpin Michael Corleone, now divorced from his wife Kay has nearly succeeded in keeping his promise that his family would one day be completely legitimate." />
+                                                    </h:panelGrid>
+                                                </p:tab>
+                                            </p:tabView>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--panel end-->
+
+                            <!--fieldset-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        Fieldset
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <p:fieldset legend="Basic" style="margin-bottom:20px">
+                                                <h:panelGrid columns="2" cellpadding="5">
+                                                    <h:outputText
+                                                        value="The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding.
+                                                        His beloved son Michael has just come home from the war, but does not intend to become part of his father's business.
+                                                        Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect,
+                                                        but given to ruthless violence whenever anything stands against the good of the family." />
+                                                </h:panelGrid>
+                                            </p:fieldset>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fieldset end-->
                         </div>
                     </div>
                 </div>
