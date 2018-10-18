@@ -6,9 +6,9 @@
     --color-primary-dark: #004BA0;
     --color-primary-light: #2196F3;
     --color-primary-box-shadow: rgba(0, 123, 255, .5); */
-    --color-primary: red;
-    --color-primary-dark: red;
-    --color-primary-light: red;
+    --color-primary: #1976D2;
+    --color-primary-dark: #004BA0;
+    --color-primary-light: #2196F3;
     --color-primary-box-shadow: rgba(0, 123, 255, .5);
     /* secondary color */
     --color-secondary: #E0E0E0;
@@ -37,6 +37,8 @@
     --color-danger-box-shadow: rgba(220, 53, 69, .5);
     /*--User interface--*/
     --ui-border-color: var(--color-primary);
+    --ui-hover-background-color: var(--color-primary-light);
+    --ui-hover-font-color: #ffffff;
     --ui-state-error: var(--color-danger);
     --ui-font-family: Roboto;
     --ui-color-header: var(--color-primary);
