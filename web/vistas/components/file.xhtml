@@ -9,9 +9,9 @@
     <body>
 
         <ui:composition template="./../template/template-admin.xhtml">
-            
+
             <ui:param name="file_active" value="active"/>
-            
+
             <ui:define name="ui-title">
                 File
             </ui:define>
@@ -28,7 +28,12 @@
                                     </div>
                                     <div class="card-body">
                                         <h:form>
-                                            
+                                            <h:form>
+                                                <p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}" mode="advanced" dragDropSupport="false"
+                                                              multiple="true" update="messages" fileLimit="3" allowTypes="/(\.|\/)(gif|jpe?g|png)$/" />
+
+                                                <p:growl id="messages" showDetail="true" />
+                                            </h:form>
                                         </h:form>
                                     </div>
                                 </div>

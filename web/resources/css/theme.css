@@ -161,7 +161,7 @@ body .ui-autocomplete .ui-autocomplete-input.ui-autocomplete-dd-input {
 
 body .ui-autocomplete .ui-autocomplete-dropdown {
   position: relative;
-  height: auto;
+  height: 34px;
   width: 2.143em;
   right: auto;
   font-size: 14px;
@@ -236,7 +236,7 @@ body .ui-autocomplete-panel {
   padding: 0;
   background-color: #ffffff;
   font-size: 14px;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -266,7 +266,7 @@ body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-item.ui-stat
 body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-item.ui-autocomplete-row {
   background-color: #ffffff;
   color: #212121;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
 }
 
 body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-item.ui-autocomplete-row>td {
@@ -1354,7 +1354,7 @@ body .ui-password-panel {
   background-color: #ffffff;
   color: #212121;
   padding: 0.857em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   margin: 0;
   width: auto;
   min-width: 150px;
@@ -1549,7 +1549,7 @@ body #keypad-div {
   background-color: #ffffff;
   color: #212121;
   padding: 0.857em;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   margin: 0;
   width: auto;
   min-width: 150px;
@@ -1600,7 +1600,7 @@ body #keypad-div button.keypad-shift.ui-state-hover, body #keypad-div button.key
 }
 
 body .ui-fileupload .ui-fileupload-buttonbar {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
@@ -1663,7 +1663,7 @@ body .ui-fileupload .ui-fileupload-buttonbar .ui-button.ui-state-disabled {
 }
 
 body .ui-fileupload .ui-fileupload-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -2116,7 +2116,7 @@ body .ui-panel .ui-panel-title {
 }
 
 body .ui-panel .ui-panel-titlebar {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
@@ -2210,7 +2210,7 @@ body .ui-panel .ui-panel-titlebar .ui-panel-titlebar-icon.ui-state-hover {
 }
 
 body .ui-panel .ui-panel-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -2219,7 +2219,7 @@ body .ui-panel .ui-panel-content {
 }
 
 body .ui-panel .ui-panel-footer {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -2241,7 +2241,7 @@ body .ui-panel.ui-panel-collapsed-h .ui-panel-titlebar .ui-panel-titlebar-icon {
 }
 
 body .ui-accordion .ui-accordion-header {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   color: #212121;
   padding: 0.857em 1em;
@@ -2343,7 +2343,7 @@ body .ui-accordion .ui-accordion-header>.ui-icon.ui-icon-triangle-1-s:before {
 }
 
 body .ui-accordion .ui-accordion-content {
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #ffffff;
   color: #212121;
   padding: 0.571em 1em;
@@ -2375,7 +2375,7 @@ body .ui-tabs .ui-tabs-nav .ui-tabs-header {
   vertical-align: top;
   float: none;
   padding: 0;
-  border: 1px solid var(--color-secondary-light);
+  border: 1px solid var(--color-secondary);
   background-color: #eeeeee;
   font-weight: 600;
   top: 0;

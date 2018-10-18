@@ -9,9 +9,9 @@
     <body>
 
         <ui:composition template="./../template/template-admin.xhtml">
-            
+
             <ui:param name="panel_active" value="active"/>
-            
+
             <ui:define name="ui-title">
                 Panels
             </ui:define>
@@ -54,6 +54,25 @@
                                 </div>
                             </div>
                             <!--accordionPanel end-->
+
+                            <!--panel-->
+                            <div class="col-12 col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        Panels
+                                    </div>
+                                    <div class="card-body">
+                                        <h:form>
+                                            <p:panel id="basic" header="Basic" footer="Movie Details" style="margin-bottom:20px">
+                                                <h:panelGrid columns="2" cellpadding="10">
+                                                    <h:outputText value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil iure ullam laudantium odio sed eum, atque facilis non repellat nisi animi ea! Labore illo eligendi itaque optio. Autem, in." />
+                                                </h:panelGrid>
+                                            </p:panel>
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--panel end-->
                         </div>
                     </div>
                 </div>
