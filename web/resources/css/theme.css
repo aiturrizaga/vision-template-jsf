@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -69,7 +68,16 @@ body .ui-corner-right {
 }
 
 body .ui-widget-overlay {
+  /*Fondo del overlay*/
   background-color: rgba(139, 139, 144, 0.72);
+}
+
+.ui-widget-overlay.light {
+  background-color: rgba(255, 255, 255, 0.72);
+}
+
+.ui-blockui-content {
+  background: white;
 }
 
 body a {
